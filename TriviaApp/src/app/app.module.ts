@@ -11,6 +11,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatBadgeModule } from '@angular/material/badge';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 /* Components */
 import { CategoryCardComponent } from './category-card/category-card.component';
@@ -29,7 +31,9 @@ import { CategoryCardComponent } from './category-card/category-card.component';
     MatToolbarModule,
     MatBadgeModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatGridListModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

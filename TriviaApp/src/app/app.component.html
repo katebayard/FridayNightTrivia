@@ -12,10 +12,26 @@
   <span>{{ title }}</span>
 </mat-toolbar>
 
-<app-category-card></app-category-card>
-<app-category-card></app-category-card>
-<app-category-card></app-category-card>
-<app-category-card></app-category-card>
+<mat-grid-list cols="3" rowHeight="125">
+  <mat-grid-tile colspan="1">
+    <app-category-card></app-category-card>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="2" rowspan="5">this is where questions will be loaded</mat-grid-tile>
+  <mat-grid-tile colspan="1">
+    <app-category-card></app-category-card>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1">
+    <app-category-card></app-category-card>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1">
+    <app-category-card></app-category-card>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1">
+    <app-category-card></app-category-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
