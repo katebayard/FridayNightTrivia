@@ -1,44 +1,9 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 <!-- Toolbar -->
 <mat-toolbar color="primary">
   <span>{{ title }}</span>
 </mat-toolbar>
 
-<mat-grid-list cols="3" rowHeight="125">
-  <mat-grid-tile colspan="1">
-    <app-category-card></app-category-card>
-  </mat-grid-tile>
-  <mat-grid-tile colspan="2" rowspan="5">this is where questions will be loaded</mat-grid-tile>
-  <mat-grid-tile colspan="1">
-    <app-category-card></app-category-card>
-  </mat-grid-tile>
-  <mat-grid-tile colspan="1">
-    <app-category-card></app-category-card>
-  </mat-grid-tile>
-  <mat-grid-tile colspan="1">
-    <app-category-card></app-category-card>
-  </mat-grid-tile>
-  <mat-grid-tile colspan="1">
-    <app-category-card></app-category-card>
-  </mat-grid-tile>
-</mat-grid-list>
+<app-questions></app-questions>
 
-
-
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <router-outlet></router-outlet>

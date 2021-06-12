@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="box-1"> 
+      <div *ngFor="let cat of categories">
+        <mat-toolbar appHighlightCard color="accent"> 
+          <span>{{cat.category}}</span>
+          <span class="spacer"></span>
+          <button mat-icon-button color="primary" aria-label="Next question">
+              <mat-icon>double_arrow</mat-icon>
+            </button>
+        </mat-toolbar>
+      
+        <p>{{cat.description}}</p>
+        <mat-progress-bar mode="determinate" value="40" color="primary"></mat-progress-bar>
+      </div>
+    </div>
+    <div class="box-2"> this is where questions will be loaded </div>
+  </div>

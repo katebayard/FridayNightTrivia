@@ -16,12 +16,16 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 /* Components */
 import { CategoryCardComponent } from './category-card/category-card.component';
+import { HighlightCardDirective } from './highlight-card.directive';
+import { QuestionsComponent } from './questions/questions.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CategoryCardComponent
+    CategoryCardComponent,
+    HighlightCardDirective,
+    QuestionsComponent
   ],
   imports: [
     BrowserModule,

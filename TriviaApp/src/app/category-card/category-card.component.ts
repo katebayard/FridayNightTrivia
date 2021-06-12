@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Category} from './../category';
+import { CATEGORIES} from './../mock-content';
 
 @Component({
   selector: 'app-category-card',
@@ -12,4 +14,8 @@ export class CategoryCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  categories = CATEGORIES;
+  
+
 }
+
