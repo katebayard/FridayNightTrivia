@@ -18,6 +18,8 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { CategoryCardComponent } from './category-card/category-card.component';
 import { HighlightCardDirective } from './highlight-card.directive';
 import { QuestionsComponent } from './questions/questions.component';
+import { AnswersComponent } from './answers/answers.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { QuestionsComponent } from './questions/questions.component';
     AppComponent,
     CategoryCardComponent,
     HighlightCardDirective,
-    QuestionsComponent
+    QuestionsComponent,
+    AnswersComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,

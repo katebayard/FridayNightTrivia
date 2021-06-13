@@ -1,6 +1,4 @@
-/* app-category-card { margin: 10px} */
-
-  .container { 
+.container { 
     display: grid;
     gap: 20px;
     grid-template-columns: 33% auto;
@@ -8,9 +6,4 @@
   
   [class^="box-"] {
     display: grid;
-  }
-
-  .title {
-    font-size: larger;
-    font-weight: 200;
   }

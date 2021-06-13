@@ -1,9 +1,10 @@
 <!-- Toolbar -->
 <mat-toolbar color="primary">
-  <span>{{ title }}</span>
+  <button class = "title" mat-button routerLink="/">{{ title }}</button>
+  <button mat-button routerLink="questions">Questions</button>
+  <button mat-button routerLink="answers">Answers</button>
 </mat-toolbar>
 
-<app-questions></app-questions>
 
 
 <router-outlet></router-outlet>
