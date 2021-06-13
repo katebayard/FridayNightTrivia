@@ -7,5 +7,6 @@ export interface Question {
     answer: string,
     bonusAnswer: string,
     points: number,
-    Asked: boolean
+    asked: boolean,
+    revealed: boolean
   }

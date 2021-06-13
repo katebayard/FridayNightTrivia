@@ -17,7 +17,8 @@ export const CATEGORIES: Category[] =  [
           answer: "FDR",
           bonusAnswer: "Fala",
           points: 2,
-          Asked: false
+          asked: false,
+          revealed: false
         },
         {
           id: 2,
@@ -28,7 +29,8 @@ export const CATEGORIES: Category[] =  [
           answer: "Biden",
           bonusAnswer: "Champ and Major",
           points: 2,
-          Asked: false
+          asked: false,
+          revealed: false
         }
       ]
     },
@@ -46,7 +48,8 @@ export const CATEGORIES: Category[] =  [
           answer: "Rent",
           bonusAnswer: "",
           points: 1,
-          Asked: false
+          asked: false,
+          revealed: false
         },
         {
           id: 4,
@@ -57,7 +60,8 @@ export const CATEGORIES: Category[] =  [
           answer: "Hamilton",
           bonusAnswer: "",
           points: 1,
-          Asked: false
+          asked: false,
+          revealed: false
         }
       ]
     },
@@ -75,7 +79,8 @@ export const CATEGORIES: Category[] =  [
           answer: "Colorado",
           bonusAnswer: "",
           points: 1,
-          Asked: false
+          asked: false,
+          revealed: false
         },
         {
           id: 6,
@@ -86,7 +91,8 @@ export const CATEGORIES: Category[] =  [
           answer: "Ohio",
           bonusAnswer: "",
           points: 1,
-          Asked: false
+          asked: false,
+          revealed: false
         }
       ]
     }

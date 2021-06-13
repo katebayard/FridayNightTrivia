@@ -4,7 +4,7 @@
         <mat-toolbar appHighlightCard color="accent"> 
           <span>{{cat.category}}</span>
           <span class="spacer"></span>
-          <button mat-icon-button color="primary" aria-label="Next question">
+          <button mat-icon-button color="primary" aria-label="Next question" (click)="nextQuestion(cat)">
               <mat-icon>double_arrow</mat-icon>
             </button>
         </mat-toolbar>
@@ -13,5 +13,11 @@
         <mat-progress-bar mode="determinate" value="40" color="primary"></mat-progress-bar>
       </div>
     </div>
-    <div class="box-2"> this is where questions will be loaded </div>
+    <div class="box-2"> 
+      <div *ngIf = "currentQuestion">
+        <h1>{{currentQuestion.text}}</h1>
+        <h2>{{currentQuestion.bonusText}}</h2>
+      </div>  
+    
+    </div>
   </div>
