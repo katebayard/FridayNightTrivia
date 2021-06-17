@@ -14,3 +14,9 @@
     font-size: larger;
     font-weight: 200;
   }
+
+  .prompt {
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+  }
