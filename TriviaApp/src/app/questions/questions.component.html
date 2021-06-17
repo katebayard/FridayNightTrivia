@@ -13,11 +13,38 @@
         <mat-progress-bar mode="determinate" value="40" color="primary"></mat-progress-bar>
       </div>
     </div>
+
+    <!-- 
+          hint: "",
+          points: 2, -->
     <div class="box-2"> 
-      <div *ngIf = "currentQuestion">
-        <h1>{{currentQuestion.text}}</h1>
-        <h2>{{currentQuestion.bonusText}}</h2>
-      </div>  
+      <div *ngIf = "currentCategory else noCategory">
+        <div *ngIf ="currentQuestion else noQuestion">
+          <mat-expansion-panel hideToggle>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Total points: {{currentQuestion.points}}
+              </mat-panel-title>
+              <mat-panel-description >
+                Click for a hint
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>{{currentQuestion.hint}}</p>
+          </mat-expansion-panel>
+          <h1>{{currentQuestion.text}}</h1>
+          <img src={{currentQuestion.imageLink}}>
+          <div *ngIf = "bonusQuestion" class="bonus">
+            Bonus: {{currentQuestion.bonusText}}
+          </div>
+        </div>
+          <ng-template #noQuestion>
+            <div class = "prompt">No more questions!</div>
+          </ng-template>
+      </div>
+      <ng-template #noCategory>
+        <div class = "prompt">Pick a category!</div>
+      </ng-template>
+        
     
     </div>
   </div>

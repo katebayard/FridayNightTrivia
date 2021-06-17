@@ -6,14 +6,15 @@ import { Question } from '../question';
 @Component({
   selector: 'app-questions',
   templateUrl: './questions.component.html',
-  styleUrls: ['./questions.component.css']
+  styleUrls: ['./questions.component.css', './../app.component.css']
 })
 export class QuestionsComponent implements OnInit {
 
   categories = CATEGORIES;
   currentCategory? : Category;
-  currentQuestion? : Question;
+  currentQuestion? : Question | null;
   questionArray? : Question[];
+  bonusQuestion? : boolean;
 
   constructor() { }
 
@@ -22,12 +23,18 @@ export class QuestionsComponent implements OnInit {
   
   nextQuestion( category : Category): void {
     this.currentCategory = category;
+    this.currentQuestion = null;
+    this.bonusQuestion = false;
     for( var q of category.questions) {
       if (!q.asked) {
         this.currentQuestion = q;
         this.currentQuestion.asked = true;
-        break;
+        if((q.bonusText.length>0)) {
+          this.bonusQuestion = true;
+        }
+        return;
       }
+      
     }
     
   }

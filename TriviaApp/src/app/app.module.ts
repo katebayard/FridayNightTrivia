@@ -13,6 +13,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 /* Components */
 import { CategoryCardComponent } from './category-card/category-card.component';
@@ -41,7 +42,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     MatButtonModule,
     MatIconModule,
     MatGridListModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
