@@ -11,3 +11,13 @@
   img {
     max-height:400px;
   }
+
+  .question-text {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.5em;
+  }
+
+  .question-options {
+
+  }

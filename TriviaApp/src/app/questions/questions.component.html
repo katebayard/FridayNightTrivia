@@ -10,7 +10,7 @@
         </mat-toolbar>
       
         <p>{{cat.description}}</p>
-        <mat-progress-bar mode="determinate" value="40" color="primary"></mat-progress-bar>
+        <mat-progress-bar mode="determinate" value={{cat.progress}} color="primary"></mat-progress-bar>
       </div>
     </div>
 
@@ -31,7 +31,7 @@
             </mat-expansion-panel-header>
             <p>{{currentQuestion.hint}}</p>
           </mat-expansion-panel>
-          <h1>{{currentQuestion.text}}</h1>
+          <div class = "question-text" [innerHTML]="currentQuestion.text"></div>
           <img src={{currentQuestion.imageLink}}>
           <div *ngIf = "bonusQuestion" class="bonus">
             Bonus: {{currentQuestion.bonusText}}

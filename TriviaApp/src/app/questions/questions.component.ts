@@ -32,6 +32,7 @@ export class QuestionsComponent implements OnInit {
         if((q.bonusText.length>0)) {
           this.bonusQuestion = true;
         }
+        this.currentCategory.progress += 100 / this.currentCategory.questions.length;
         return;
       }
       
