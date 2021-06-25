@@ -16,7 +16,8 @@ export class QuestionsComponent implements OnInit {
   questionArray? : Question[];
   bonusQuestion? : boolean;
 
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit(): void {
   }

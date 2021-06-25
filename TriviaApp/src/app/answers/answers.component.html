@@ -1,18 +1,48 @@
 <div class="container">
-    <div class="box-1"> 
-      <!-- <div *ngFor="let cat of categories">
-        <mat-toolbar appHighlightCard color="accent"> 
-          <span>{{cat.category}}</span>
-          <span class="spacer"></span>
-          <button mat-icon-button color="primary" aria-label="Next question">
-              <mat-icon>double_arrow</mat-icon>
-            </button>
-        </mat-toolbar>
-      
-        <p>{{cat.description}}</p>
-        <mat-progress-bar mode="determinate" value="40" color="primary"></mat-progress-bar>
-      </div> -->
-      List of quesitons here
+  <div class="box-1"> 
+    <div *ngFor="let cat of categories">
+      <mat-toolbar appHighlightCard color="accent"> 
+        <span>{{cat.category}}</span>
+        <span class="spacer"></span>
+        <button mat-icon-button color="primary" aria-label="Next answer" (click)="nextAnswer(cat)">
+            <mat-icon>double_arrow</mat-icon>
+          </button>
+      </mat-toolbar>
+    
+      <p>{{cat.description}}</p>
+      <mat-progress-bar mode="determinate" value={{cat.progress}} color="primary"></mat-progress-bar>
     </div>
-    <div class="box-2"> this is where answers will be loaded </div>
   </div>
+
+  <!-- 
+        hint: "",
+        points: 2, -->
+  <div class="box-2"> 
+    <div *ngIf = "currentCategory else noCategory">
+      <div *ngIf ="currentAnswer else noQuestion">
+        <mat-expansion-panel hideToggle>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Total points: {{currentAnswer.points}}
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+        </mat-expansion-panel>
+        <div class = "question-text" [innerHTML]="currentAnswer.text"></div>
+        <div class = "answer-text" [innerHTML]="currentAnswer.answer"></div>
+        <img src={{currentAnswer.imageLink}}>
+        <div *ngIf = "bonusAnswer" class="bonus">
+          Bonus: {{currentAnswer.bonusText}}
+          Answer: {{currentAnswer.bonusAnswer}}
+        </div>
+      </div>
+        <ng-template #noQuestion>
+          <div class = "prompt">No more questions!</div>
+        </ng-template>
+    </div>
+    <ng-template #noCategory>
+      <div class = "prompt">Pick a category!</div>
+    </ng-template>
+      
+  
+  </div>
+</div>

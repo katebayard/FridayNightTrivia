@@ -21,6 +21,7 @@ import { HighlightCardDirective } from './highlight-card.directive';
 import { QuestionsComponent } from './questions/questions.component';
 import { AnswersComponent } from './answers/answers.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { QuestionCardComponent } from './question-card/question-card.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     HighlightCardDirective,
     QuestionsComponent,
     AnswersComponent,
-    HomepageComponent
+    HomepageComponent,
+    QuestionCardComponent
   ],
   imports: [
     BrowserModule,

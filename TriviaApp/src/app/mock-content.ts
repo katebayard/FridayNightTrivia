@@ -19,6 +19,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 2,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -31,6 +32,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 2,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -43,6 +45,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -55,6 +58,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 999999,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -67,6 +71,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -79,6 +84,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -91,6 +97,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -103,6 +110,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -115,6 +123,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -127,6 +136,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         }
       ]
@@ -147,6 +157,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -159,6 +170,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -171,6 +183,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -183,6 +196,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -195,6 +209,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -207,6 +222,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -219,6 +235,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -231,6 +248,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -243,6 +261,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -255,6 +274,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         }
       ]
@@ -275,6 +295,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -287,6 +308,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -299,6 +321,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -311,6 +334,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -323,6 +347,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -335,6 +360,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -347,6 +373,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -359,6 +386,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -371,6 +399,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -383,6 +412,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         }
       ]
@@ -403,6 +433,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -415,6 +446,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -427,6 +459,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -439,6 +472,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -451,6 +485,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -463,6 +498,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -475,6 +511,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -487,6 +524,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -499,6 +537,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -511,6 +550,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         }
       ]
@@ -531,6 +571,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -543,6 +584,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -555,6 +597,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 4,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -567,6 +610,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -579,6 +623,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -591,6 +636,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -603,6 +649,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -615,6 +662,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -627,6 +675,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         },
         {
@@ -639,6 +688,7 @@ export const CATEGORIES: Category[] =  [
           bonusAnswer: "",
           points: 1,
           asked: false,
+          askOrder: -1,
           revealed: false
         }
       ]
