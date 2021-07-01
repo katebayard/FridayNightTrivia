@@ -22,6 +22,7 @@ import { QuestionsComponent } from './questions/questions.component';
 import { AnswersComponent } from './answers/answers.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { QuestionCardComponent } from './question-card/question-card.component';
+import { SongPlayerComponent } from './song-player/song-player.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { QuestionCardComponent } from './question-card/question-card.component';
     QuestionsComponent,
     AnswersComponent,
     HomepageComponent,
-    QuestionCardComponent
+    QuestionCardComponent,
+    SongPlayerComponent
   ],
   imports: [
     BrowserModule,

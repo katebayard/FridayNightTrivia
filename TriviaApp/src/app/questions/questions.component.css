@@ -18,6 +18,18 @@
     line-height: 1.5em;
   }
 
-  .question-options {
-
+  mat-panel-description {
+    font-weight: bold;
+    color: blue;
   }
+
+  .box-2 {
+    width: 800px;
+    text-align: center;
+  }
+
+  .multiple-choice {
+    text-align: left;
+  }
+
+

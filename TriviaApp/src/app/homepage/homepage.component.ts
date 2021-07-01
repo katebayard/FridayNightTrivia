@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Category} from './../category';
+import { CATEGORIES} from './../mock-content';
 
 @Component({
   selector: 'app-homepage',
@@ -7,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
 
+  categories = CATEGORIES;
+  
   constructor() { }
 
   ngOnInit(): void {

@@ -1,1 +1,9 @@
-<p>homepage works!</p>
+<mat-grid-list cols="3" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let cat of categories">
+        <mat-toolbar appHighlightCard color="accent"> 
+            <div>{{cat.category}}</div>
+                <div>{{cat.description}}</div>
+        </mat-toolbar>
+        
+    </mat-grid-tile>
+  </mat-grid-list>
