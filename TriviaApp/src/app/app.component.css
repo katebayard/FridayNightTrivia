@@ -20,3 +20,15 @@
     font-weight: bolder;
     text-align: center;
   }
+
+  .question-number {
+    flex: initial;
+  }
+
+  .points {
+    flex: initial;
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }

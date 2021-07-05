@@ -15,6 +15,7 @@ export class QuestionsComponent implements OnInit {
   currentQuestion? : Question | null;
   questionArray? : Question[];
   bonusQuestion? : boolean;
+  hint?: boolean;
 
   constructor() {
    }
@@ -32,6 +33,9 @@ export class QuestionsComponent implements OnInit {
         this.currentQuestion.asked = true;
         if((q.bonusText.length>0)) {
           this.bonusQuestion = true;
+        }
+        if((q.hint.length>0)) {
+          this.hint = true;
         }
         this.currentCategory.progress += 100 / this.currentCategory.questions.length;
         return;

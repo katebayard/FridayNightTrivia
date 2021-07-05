@@ -14,6 +14,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatCardModule} from '@angular/material/card';
 
 /* Components */
 import { CategoryCardComponent } from './category-card/category-card.component';
@@ -47,7 +48,8 @@ import { SongPlayerComponent } from './song-player/song-player.component';
     MatIconModule,
     MatGridListModule,
     MatProgressBarModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
