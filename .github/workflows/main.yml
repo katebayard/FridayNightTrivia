@@ -12,10 +12,11 @@ jobs:
               port: ${{ vars.PORT }}
               user: ${{ secrets.USERNAME }}
               private_key: ${{ secrets.SSHKEY }}
+              host_fingerprint: ${{ secrets.FINGERPRINT }}
               command: 
                 echo 'composer install' &&
                 echo 'drush cr' &&
                 echo 'drush cim' &&
-                cd public_html/web/themes/customy/base &&
+                cd public_html/web/themes/custom/base &&
                 pwd &&
                 echo *
