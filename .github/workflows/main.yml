@@ -1,0 +1,17 @@
+name: Crazy Albus testing Actions
+run-name: Testing ssh action
+on: [push]
+jobs:
+    testSSH:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Run remote command via SSH
+            uses: D3rHase/ssh-command-action@latest
+            with:
+              host: ${{ varss.IP }}
+              port: ${{ vars.PORT }}
+              user: ${{ secrets.USERNAME }}
+              private_key: ${{ secrets.PASSWORD }}
+              command: | 
+                echo 'Hello, World!'
+                ls
