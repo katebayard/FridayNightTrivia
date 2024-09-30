@@ -14,4 +14,8 @@ jobs:
               private_key: ${{ secrets.SSHKEY }}
               command: 
                 echo 'Hello, World!' &&
-                echo 'Hello again'
+                yourfilenames=`ls ./*`
+                for eachfile in $yourfilenames
+                do
+                   echo $eachfile
+                done
