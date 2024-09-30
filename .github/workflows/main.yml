@@ -12,7 +12,6 @@ jobs:
               port: ${{ vars.PORT }}
               user: ${{ secrets.USERNAME }}
               private_key: ${{ secrets.SSHKEY }}
-              host_fingerprint: ${{ secrets.FINGERPRINT }}
               command: | 
                 echo 'Hello, World!'
                 ls
