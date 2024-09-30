@@ -11,7 +11,7 @@ jobs:
               host: ${{ vars.IP }}
               port: ${{ vars.PORT }}
               user: ${{ secrets.USERNAME }}
-              private_key: ${{ secrets.PASSWORD }}
+              private_key: ${{ secrets.SSHKEY }}
               command: | 
                 echo 'Hello, World!'
                 ls
