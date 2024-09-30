@@ -16,6 +16,6 @@ jobs:
                 echo 'composer install' &&
                 echo 'drush cr' &&
                 echo 'drush cim' &&
-                cd public_html/web/themes/custom/base &&
+                cd public_html/web/themes/customy/base &&
                 pwd &&
                 echo *
