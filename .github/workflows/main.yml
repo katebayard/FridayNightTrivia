@@ -13,6 +13,9 @@ jobs:
               user: ${{ secrets.USERNAME }}
               private_key: ${{ secrets.SSHKEY }}
               command: 
-                echo 'Hello, World!' &&
+                echo 'composer install' &&
+                echo 'drush cr' &&
+                echo 'drush cim' &&
+                cd public_html/web/themes/custom/base &&
                 pwd &&
                 echo *
