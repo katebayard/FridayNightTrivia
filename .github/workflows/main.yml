@@ -8,7 +8,7 @@ jobs:
           - name: Run remote command via SSH
             uses: D3rHase/ssh-command-action@latest
             with:
-              host: ${{ varss.IP }}
+              host: ${{ vars.IP }}
               port: ${{ vars.PORT }}
               user: ${{ secrets.USERNAME }}
               private_key: ${{ secrets.PASSWORD }}
