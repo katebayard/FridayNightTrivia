@@ -1,6 +1,6 @@
 name: Crazy Albus testing Actions
 run-name: Testing ssh action
-on: [push]
+on: [workflow_dispatch]
 jobs:
     testSSH:
         runs-on: ubuntu-latest
