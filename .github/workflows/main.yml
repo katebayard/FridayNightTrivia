@@ -12,6 +12,6 @@ jobs:
               port: ${{ vars.PORT }}
               user: ${{ secrets.USERNAME }}
               private_key: ${{ secrets.SSHKEY }}
-              command: | 
-                echo 'Hello, World!'
+              command: 
+                echo 'Hello, World!' &&
                 echo 'Hello again'
